@@ -16,7 +16,6 @@ class PaymentController extends BaseController
         $this->serviceModel = new ServiceModel();
         $this->userModel    = new UserModel();
 
-        // Konfigurasi Midtrans langsung (Hardcoded untuk memastikan koneksi sukses)
         \Midtrans\Config::$serverKey = 'Mid-server-xrCrty7cPSwvhJg-wE_Dlx7K';
         \Midtrans\Config::$clientKey = 'Mid-client-gRYbmq_oYEjMQrLk';
         \Midtrans\Config::$isProduction = false;

@@ -48,8 +48,6 @@ class BookingController extends BaseController
         return view('pelanggan/booking', $data);
     }
 
-    
-
     public function create()
     {
         $services = $this->serviceModel->findAll();

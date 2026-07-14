@@ -15,8 +15,7 @@ Aplikasi *Service Booking* berbasis web yang dibangun menggunakan CodeIgniter 4.
 * Composer
 
 ## Cara Instalasi
-1. Clone repositori ini: `git clone https://github.com/username/aeroserve.git`
-2. Masuk ke direktori: `cd aeroserve-booking`
+1. Clone repositori ini: `git clone https://github.com/TegarLintang/aeroserve.git`
 3. Jalankan perintah composer: `composer install`
 4. Ubah nama file `.env.example` menjadi `.env` dan sesuaikan konfigurasi database.
 5. Jalankan migrasi dan seeder: `php spark migrate --seed`
@@ -25,3 +24,4 @@ Aplikasi *Service Booking* berbasis web yang dibangun menggunakan CodeIgniter 4.
 ## Akun Demo
 * **Admin:** admin@gmail.com | Password: admin123
 * **Pelanggan:** user@gmail.com | Password: user123
+* **Teknisi:** teknisi@gmail.com | Password: Teknisi123

@@ -50,6 +50,7 @@ $routes->group('pelanggan', ['filter' => 'role:pelanggan'], static function ($ro
 
 $routes->group('api', ['filter' => 'apikey'], static function ($routes) {
     $routes->get('services', 'Api\ServiceEndpoint::index');
-    $routes->get('services/(:num)', 'Api\ServiceEndpoint::show/$1');
+    $routes->
+    get('services/(:num)', 'Api\ServiceEndpoint::show/$1');
     $routes->get('booking-status/(:num)', 'Api\BookingEndpoint::status/$1');
 });
